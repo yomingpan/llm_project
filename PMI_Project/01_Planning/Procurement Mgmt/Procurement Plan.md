@@ -1,47 +1,51 @@
-# Procurement Plan
+# 採購管理計畫 Procurement Plan
 
-## Introduction
-This Procurement Plan outlines the strategy for acquiring goods and services necessary for the successful completion of the project. It details the procurement processes, roles, responsibilities, and timelines.
+## 簡介 Introduction
+本採購管理計畫說明本專案所需物資與服務的取得策略、流程、角色分工及時程安排，確保專案順利完成。
 
-## Procurement Objectives
-- Ensure timely acquisition of necessary resources.
-- Maintain quality standards for procured items.
-- Optimize costs while meeting project requirements.
+## 採購目標 Procurement Objectives
+- 及時取得專案所需資源。
+- 確保採購項目品質達標。
+- 在滿足需求下優化成本。
 
-## Procurement Strategy
-1. **Identify Procurement Needs**
-   - List all goods and services required for the project.
-   - Determine specifications and quality requirements.
+## 採購策略 Procurement Strategy
+1. **需求識別 Identify Procurement Needs**
+   - 確認專案所需物資與服務（如：樹莓派、攝影機、影像擷取卡、雲端服務等）。
+   - 明確規格與品質標準。
 
-2. **Market Research**
-   - Conduct market analysis to identify potential suppliers.
-   - Evaluate supplier capabilities and reliability.
+2. **市場調查 Market Research**
+   - 分析市場、尋找潛在供應商。
+   - 評估供應商能力、信譽與交貨時效。
 
-3. **Procurement Methods**
-   - Determine the appropriate procurement methods (e.g., direct purchase, bidding).
-   - Establish criteria for supplier selection.
+3. **採購方式 Procurement Methods**
+   - 根據金額與專案需求選擇直購、比價、公開招標等方式。
+   - 訂定供應商評選標準（如價格、品質、交期、服務等）。
 
-4. **Contract Management**
-   - Define contract types (fixed-price, cost-reimbursable, etc.).
-   - Outline terms and conditions, including payment schedules and deliverables.
+4. **合約管理 Contract Management**
+   - 明確合約型態（定價、成本加成等）。
+   - 訂定付款條件、交付標準、驗收流程與違約處理。
 
-## Roles and Responsibilities
-- **Project Manager**: Oversees the procurement process and ensures alignment with project goals.
-- **Procurement Officer**: Manages supplier relationships and procurement activities.
-- **Finance Team**: Monitors budget and financial aspects of procurement.
+## 角色與責任 Roles and Responsibilities
+- **專案經理**：監督採購流程，確保與專案目標一致。
+- **採購專員**：執行採購作業，維護供應商關係。
+- **財務團隊**：監控預算與付款流程。
 
-## Timeline
-- **Procurement Planning**: [Insert Date]
-- **Supplier Selection**: [Insert Date]
-- **Contract Negotiation**: [Insert Date]
-- **Procurement Execution**: [Insert Date]
+## 時程安排 Timeline
+| 階段                | 預計日期         |
+|---------------------|-----------------|
+| 採購規劃            | 2025-07-01      |
+| 供應商選定          | 2025-07-10      |
+| 合約談判            | 2025-07-15      |
+| 採購執行            | 2025-07-20      |
 
-## Budget
-- Provide an estimated budget for procurement activities, including contingencies.
+## 預算 Budget
+- 採購預算總額：約 $80,000（含設備、材料、雲端服務等，含10%預備金）。
+- 詳細預算請參見《Budget.md》。
 
-## Monitoring and Control
-- Establish metrics for evaluating supplier performance.
-- Implement a process for managing changes to procurement plans.
+## 監控與管制 Monitoring and Control
+- 訂定供應商績效指標（如交期、品質、服務滿意度）。
+- 定期檢討採購進度與供應商表現。
+- 變更需求時，依《Change Log》流程執行。
 
-## Conclusion
-This Procurement Plan serves as a roadmap for managing procurement activities throughout the project lifecycle, ensuring that all necessary resources are acquired efficiently and effectively.
+## 結論 Conclusion
+本採購管理計畫為專案採購活動之依據，確保所需資源能有效率且高品質取得，支援專案目標達成。

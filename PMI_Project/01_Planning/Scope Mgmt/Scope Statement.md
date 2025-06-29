@@ -1,40 +1,56 @@
-# Scope Statement
+# 專案範疇說明 Scope Statement
 
-## Project Title: [Insert Project Title Here]
+## Project Title: YOLO-based Nozzle Abnormal Droplet Detection for Semiconductor Equipment
 
-### Project Purpose
-The purpose of this project is to [insert purpose of the project, e.g., develop a new software application, improve a process, etc.]. This project aims to [insert specific goals and objectives].
+### Project Purpose（專案目的）
+本專案旨在建置一套以 YOLO 為核心的噴嘴異常滴液偵測系統，提升半導體製程品質，降低因滴液異常造成的報廢損失，並實現即時監控與自動警報。
 
-### Project Objectives
-1. **Objective 1**: [Describe the first objective]
-2. **Objective 2**: [Describe the second objective]
-3. **Objective 3**: [Describe the third objective]
+### Project Objectives（專案目標）
+1. **建置即時異常滴液偵測系統**：整合現有攝影機、樹莓派與雲端推論，實現即時監控。
+2. **提升模型準確率**：持續收集標註資料並自動再訓練 YOLO 模型，確保準確率/召回率 >90%。
+3. **建立警報與合規回報機制**：提供儀表板與自動通知，協助利害關係人即時反應。
 
-### Project Deliverables
-The following deliverables will be produced as part of this project:
-- **Deliverable 1**: [Description of deliverable]
-- **Deliverable 2**: [Description of deliverable]
-- **Deliverable 3**: [Description of deliverable]
+### Project Deliverables（交付成果）
+- **YOLO 滴液偵測模型**：可即時辨識噴嘴異常滴液。
+- **樹莓派影像擷取系統**：現場影像串流與資料上傳。
+- **GCP 雲端推論 API 與儀表板**：即時監控與警報回報。
+- **技術文件與教育訓練手冊**：操作說明與標註指引。
+- **MLOps 再訓練流程**：自動化模型優化機制。
 
-### Project Boundaries
-- **In-Scope**: [List what is included in the project scope]
-- **Out-of-Scope**: [List what is excluded from the project scope]
+### Project Boundaries（範疇界定）
+- **In-Scope**:
+  - 現有攝影機與樹莓派整合
+  - YOLO 模型開發、訓練與部署
+  - 雲端推論服務與警報儀表板
+  - 標註流程與教育訓練
+- **Out-of-Scope**:
+  - 改動原廠設備軟體
+  - 非半導體製程相關應用
+  - 現場網路基礎建設升級
 
-### Assumptions
-- [List any assumptions that are being made for the project]
+### Assumptions（假設）
+- 現有攝影機可正常存取
+- 樹莓派與雲端服務可順利串接
+- 設備團隊配合標註與裝機
 
-### Constraints
-- [List any constraints that may impact the project]
+### Constraints（限制）
+- 無法修改原廠設備軟體
+- 樹莓派網路頻寬有限
+- 初期標註人力有限
 
-### Stakeholders
-- **Stakeholder 1**: [Name and role]
-- **Stakeholder 2**: [Name and role]
-- **Stakeholder 3**: [Name and role]
+### Stakeholders（利害關係人）
+- **LABY CHOU**: 贊助者
+- **Yoming**: 專案負責人/資料科學家
+- **Ch Pillar**: IoT 計畫負責人
+- **全球品質團隊**: 品質監控/合規
+- **設備負責人**: 設備管理與異常反應
+- **MS/WILLY/CY**: 技術團隊
+- **RN, Jacky**: 超級用戶/現場工程師
 
-### Approval
-This scope statement has been reviewed and approved by the following stakeholders:
-- [Name, Title, Date]
-- [Name, Title, Date] 
+### Approval（核准）
+本範疇說明經下列利害關係人審查與核准：
+- LABY CHOU, 贊助者, 2025-06-29
+- Yoming, 專案負責人, 2025-06-29
 
-### Revision History
-- **Version 1.0**: [Date] - Initial scope statement created.
+### Revision History（修訂紀錄）
+- **Version 1.0**: 2025-06-29 - 初版範疇說明建立。

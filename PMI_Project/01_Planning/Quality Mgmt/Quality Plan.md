@@ -1,32 +1,46 @@
-# Quality Management Plan
+# 品質管理計畫 Quality Management Plan
 
 ## Introduction
-The Quality Management Plan outlines the approach to ensure that the project meets the defined quality standards and satisfies stakeholder requirements. It serves as a guide for the project team to maintain quality throughout the project lifecycle.
+本品質管理計畫說明如何確保專案成果符合既定品質標準與利害關係人需求，並指導團隊於專案全生命週期落實品質管理。
 
-## Quality Objectives
-- Ensure all project deliverables meet the specified requirements.
-- Achieve a customer satisfaction rating of at least 90%.
-- Minimize defects in deliverables to less than 5%.
+## Quality Objectives（品質目標）
+- 所有交付成果均符合規格與需求。
+- 客戶/利害關係人滿意度達90%以上。
+- 交付成果缺陷率低於5%。
+- YOLO模型準確率/召回率達90%以上，警報誤報率低於5%。
 
-## Quality Standards
-- Adhere to industry standards and best practices relevant to the project.
-- Follow organizational quality policies and procedures.
+## Quality Standards（品質標準）
+- 遵循半導體產業標準、AI模型開發最佳實務與公司品質政策。
+- 文件、程式碼、標註資料皆需經審查與驗收。
 
-## Quality Assurance
-- Conduct regular quality audits to ensure compliance with quality standards.
-- Implement a continuous improvement process to enhance quality practices.
+## Quality Assurance（品質保證）
+- 定期執行品質稽核（如交付成果審查、程式碼審查、標註資料抽查）。
+- 建立持續改善機制，針對缺失提出改善行動並追蹤成效。
+- 重要里程碑前進行品質審查會議。
 
-## Quality Control
-- Establish quality control measures to monitor project deliverables.
-- Utilize tools and techniques such as inspections, testing, and reviews to identify defects.
+## Quality Control（品質管制）
+- 交付成果皆須經檢查、測試與審查（如模型測試、現場驗證、用戶回饋）。
+- 導入自動化測試、交叉驗證、獨立測試集等技術。
+- 缺陷發現後即時回報並追蹤修正，重大缺陷需召開專案會議討論。
 
-## Roles and Responsibilities
-- **Project Manager**: Oversee the implementation of the Quality Management Plan and ensure adherence to quality standards.
-- **Quality Assurance Team**: Conduct quality audits and provide recommendations for improvement.
-- **Project Team Members**: Follow quality procedures and report any quality issues.
+## Roles and Responsibilities（角色與責任）
+- **專案負責人/資料科學家**：監督品質管理計畫執行，主導品質審查。
+- **全球品質團隊**：執行品質稽核，提出改善建議，協助合規追蹤。
+- **技術團隊/現場人員**：依品質流程執行任務，主動回報品質議題。
+- **用戶/利害關係人**：提供回饋，參與驗收與滿意度調查。
 
-## Quality Metrics
-- Define key performance indicators (KPIs) to measure quality, such as defect rates, rework levels, and customer feedback scores.
+## Quality Metrics（品質衡量指標）
+| 指標                | 目標值         | 追蹤方式                |
+|---------------------|---------------|------------------------|
+| 缺陷率              | <5%           | 測試/審查記錄           |
+| 客戶滿意度          | ≥90%          | 問卷/回饋               |
+| 模型準確率/召回率   | ≥90%          | 測試報告                |
+| 警報誤報率          | <5%           | 系統日誌/用戶回饋       |
+| 交付成果準時率      | ≥95%          | 進度追蹤                |
+
+## Review and Improvement（檢討與持續改善）
+- 每月檢討品質指標，必要時修正品質管理計畫。
+- 重大缺陷或客訴事件後，召開專案回顧會議，提出改善方案。
 
 ## Conclusion
-This Quality Management Plan will be reviewed and updated as necessary to ensure its effectiveness in achieving the project's quality objectives.
+本品質管理計畫將隨專案進展定期檢討與更新，確保品質目標持續達成。
